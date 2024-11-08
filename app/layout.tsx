@@ -19,10 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider appearance={{ baseTheme: dark }}>
+    <ClerkProvider
+      appearance={{
+        baseTheme: dark,
+      }}
+    >
       <html lang="en">
         <body className={`${mulish.className} dark antialiased`}>
-          {children}
+          <div className="flex h-full flex-col overflow-hidden">{children}</div>
         </body>
       </html>
     </ClerkProvider>
