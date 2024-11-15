@@ -29,7 +29,7 @@ const Navbar = () => {
               : "text-muted-foreground"
           }
         >
-          Transactions
+          Transações
         </Link>
         <Link
           href="/subscription"
@@ -39,7 +39,7 @@ const Navbar = () => {
               : "text-muted-foreground"
           }
         >
-          Subscription
+          Assinatura
         </Link>
       </div>
       <UserButton showName />
